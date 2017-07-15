@@ -25,7 +25,3 @@ Public Function selectFolder(aDefault As String) As String
     selectFolder = res
 End Function
 
-Private Sub ForDebug()
-    MsgBox selectFolder("")
-End Sub
-
