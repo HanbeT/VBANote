@@ -17,7 +17,7 @@ Public Function selectFolder(aDefault As String) As String
         End If
         If .Show = True Then
             res = .SelectedItems(1)
-            If res <> "" And Right(res, 1) <> "\" Then
+            If res <> "" And Right(res, 1) <> Application.PathSeparator Then
                 res = res & Application.PathSeparator
             End If
         End If
