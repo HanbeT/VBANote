@@ -1,4 +1,13 @@
+VERSION 1.0 CLASS
+BEGIN
+  MultiUse = -1  'True
+END
 Attribute VB_Name = "ComUtil"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
+Option Explicit
 '*********************************************************
 ' 関数名：フォルダ選択処理
 ' 概  要：フォルダ選択ダイアログを開き、フォルダパスを取得する
